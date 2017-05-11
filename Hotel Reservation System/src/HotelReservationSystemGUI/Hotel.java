@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class Hotel {
 
     private String name;

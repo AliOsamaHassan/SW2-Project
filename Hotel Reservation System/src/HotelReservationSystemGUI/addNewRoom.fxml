@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="535.0" prefWidth="581.0" style="-fx-background-color: grey; -fx-border-radius: 10px; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HotelReservationSystemGUI.AddNewRoomController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="229.0" layoutY="474.0" onAction="#confirmAdding" prefHeight="37.0" prefWidth="121.0" style="-fx-background-color: #2196F3;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="54.0" layoutY="30.0" text="Add New Room" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="32.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="17.0" layoutY="95.0" prefHeight="356.0" prefWidth="545.0" style="-fx-border-radius: 5px; -fx-border-color: orange;">
+         <children>
+            <Label layoutX="30.0" layoutY="20.0" text="Room Info" textFill="#2196f3">
+               <font>
+                  <Font name="Baskerville Old Face" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="136.0" text="Room No.  :" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="186.0" text="Room Type  :" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="234.0" text="Room Capacity  :" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="283.0" text="Room Charges  :" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="roomNoTextField" focusColor="WHITE" layoutX="293.0" layoutY="129.0" promptText="Room No. " unFocusColor="WHITE">
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="12.2" surfaceScale="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="18.66" elevation="128.42" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </JFXTextField>
+            <JFXTextField fx:id="roomCapacityTextField" focusColor="WHITE" layoutX="293.0" layoutY="237.0" promptText="Room Capacity " unFocusColor="WHITE">
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="12.2" surfaceScale="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="18.66" elevation="128.42" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </JFXTextField>
+            <Group layoutX="5.0" layoutY="-131.0" />
+            <JFXCheckBox layoutX="262.0" layoutY="295.0" text="WiFi" textFill="WHITE" />
+            <JFXCheckBox layoutX="353.0" layoutY="295.0" text="TV" textFill="WHITE" />
+            <JFXCheckBox layoutX="430.0" layoutY="295.0" text="Fan" textFill="WHITE" />
+            <JFXTextField fx:id="roomNoTextField1" focusColor="WHITE" layoutX="293.0" layoutY="84.0" promptText="Floor No. " unFocusColor="WHITE">
+               <effect>
+                  <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="12.2" surfaceScale="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="18.66" elevation="128.42" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </JFXTextField>
+            <Label layoutX="50.0" layoutY="84.0" text="Floor No.  :" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXComboBox layoutX="295.0" layoutY="186.0" prefHeight="31.0" prefWidth="130.0" promptText="Single" />
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" spread="1.0" />
+         </effect>
+      </AnchorPane>
+   </children>
+   <effect>
+      <DropShadow>
+         <input>
+            <SepiaTone level="0.0" />
+         </input>
+      </DropShadow>
+   </effect>
+</Pane>

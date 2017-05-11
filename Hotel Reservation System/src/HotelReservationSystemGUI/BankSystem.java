@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class BankSystem {
 
     public Boolean transferMoney(Long fromCreditID, Long toCreditID, float amount) {

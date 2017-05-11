@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 
 import java.util.Date;
 

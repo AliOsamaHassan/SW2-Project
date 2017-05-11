@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class ServiceReservation implements ServeBehavior {
 
     public Boolean serveFeature() {

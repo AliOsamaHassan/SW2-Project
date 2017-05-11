@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class RoomBooking implements ServeBehavior {
 
     @Override

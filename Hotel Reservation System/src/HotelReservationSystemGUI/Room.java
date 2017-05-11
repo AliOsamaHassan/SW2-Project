@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 
 import HotelReservationSystemGUI.MyAppDatabaseConnection;
 import java.sql.SQLException;

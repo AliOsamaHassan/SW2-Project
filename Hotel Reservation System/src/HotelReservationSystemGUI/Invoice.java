@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.Chapter;
 import com.itextpdf.text.Font;

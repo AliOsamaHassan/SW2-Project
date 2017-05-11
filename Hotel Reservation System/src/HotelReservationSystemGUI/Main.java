@@ -8,6 +8,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.application.Application;
 
+/**
+ *
+ * @author Ali
+ */
 public class Main extends Application {
  
     
@@ -20,9 +24,7 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show(); 
-        System.out.println("How are you 7aaaaaaaaaag ahmed ");
-    
-    }
+     }
 
     /**
      * @param args the command line arguments

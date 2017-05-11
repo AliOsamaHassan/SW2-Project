@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public interface ImmubtableFeature {
 
     public int getType();

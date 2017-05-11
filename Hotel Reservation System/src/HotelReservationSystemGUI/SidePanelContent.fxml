@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fillWidth="false" prefHeight="622.0" prefWidth="228.0" style="-fx-background-color: grey; -fx-border-color: orange; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HotelReservationSystemGUI.SidePanelContentController">
+   <children>
+      <ImageView fx:id="b" fitHeight="231.0" fitWidth="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/NaivgationDrawer/src/naivgationdrawer/back.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="b1" buttonType="RAISED" onAction="#viewRooms" prefHeight="182.0" prefWidth="228.0" ripplerFill="#fc0000" style="-fx-background-color: #2196F3; -fx-border-color: orange; -fx-border-radius: 10px;" text="Home" textFill="WHITE" />
+      <JFXButton fx:id="b2" buttonType="RAISED" layoutX="10.0" layoutY="123.0" onAction="#viewRooms" prefHeight="146.0" prefWidth="228.0" ripplerFill="#fc0000" style="-fx-background-color: #2196F3; -fx-border-color: orange; -fx-border-radius: 10px;" text="Rooms" textFill="WHITE" />
+      <JFXButton fx:id="b3" buttonType="RAISED" layoutX="10.0" layoutY="197.0" onAction="#viewRooms" prefHeight="120.0" prefWidth="228.0" ripplerFill="#fc0000" style="-fx-background-color: #2196F3; -fx-border-color: orange; -fx-border-radius: 10px;" text="Resturant (Food Plan)" textFill="WHITE" />
+      <JFXButton fx:id="exit" buttonType="RAISED" layoutX="10.0" layoutY="271.0" onAction="#exit" prefHeight="75.0" prefWidth="228.0" ripplerFill="#fc0000" style="-fx-background-color: #2196F3; -fx-border-color: orange; -fx-border-radius: 10px;" text="EXIT" />
+   </children>
+</VBox>

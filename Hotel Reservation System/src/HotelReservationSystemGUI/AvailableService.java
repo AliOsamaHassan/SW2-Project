@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class AvailableService implements AvailableBehavior {
 
    

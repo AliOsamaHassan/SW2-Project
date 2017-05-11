@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class Customer extends SystemUser {
 
     private int id;

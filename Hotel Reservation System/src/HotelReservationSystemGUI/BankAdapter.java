@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class BankAdapter implements BankTarget {
 
     private BankAccount bankAccount;

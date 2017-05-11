@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public abstract class Feature implements ImmubtableFeature {
 
     protected ServeBehavior serveBehavior;

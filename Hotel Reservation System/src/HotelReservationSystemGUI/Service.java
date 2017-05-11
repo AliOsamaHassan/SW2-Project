@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class Service extends Feature {
 
     public Boolean setavailability(Boolean isAvailable) {

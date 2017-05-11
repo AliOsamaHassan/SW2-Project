@@ -1,4 +1,3 @@
-package HotelReservationSystemGUI;
 public class CreditCard {
 
     private Long CreditID;
