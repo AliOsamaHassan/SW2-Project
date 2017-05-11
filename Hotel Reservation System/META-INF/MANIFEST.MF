@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hotel_Reservation_System
+Bundle-SymbolicName: Hotel_Reservation_System
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Hotel Reservation System.jar,
+ programs/jfoenix.jar,
+ Ali/eclipse/Compiler Project/src/itextpdf-5.5.6.jar,
+ Ali/eclipse/Compiler Project/src/mysql-connector-java-5.1.23.jar
+Export-Package: HotelReservationSystemGUI
