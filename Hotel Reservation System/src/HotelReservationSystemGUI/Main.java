@@ -20,7 +20,8 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show(); 
-     }
+    
+    }
 
     /**
      * @param args the command line arguments
